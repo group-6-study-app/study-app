@@ -41,29 +41,49 @@ An app to facilitate distraction-free studying and provide a learning community 
 
 ### 2. Screen Archetypes
 
-- [list first screen here]
-  - [list associated required story here]
-  - ...
-- [list second screen here]
-  - [list associated required story here]
-  - ...
+- Login Screen
+  - User can login
+- Registration Screen
+    - User can create a new account
+- Calendar screen
+    - User can view a calendar 
+    - User can tap on a day and add a class specific reminder and see details about that day
+- Day detail screen
+    -  detailed view of a day on the calendar 
+- Course Screen
+    - User can see a list of their classes
+    - User can tap on a class to see details about it
+- Course detail
+    - User can add new notes to the class or create a reminder for it in calendar
+- Note screen
+    - User can create and share notes for a class
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Course list
+* Calendar
+* Create a note
 
 **Flow Navigation** (Screen to Screen)
 
-- [list first screen here]
-  - [list screen navigation here]
-  - ...
-- [list second screen here]
-  - [list screen navigation here]
-  - ...
+- Login screen
+  - => Course list
+- Registration screen
+    - => Course list
+- Calendar Screen
+  - => day screen
+- Day screen
+    - => calendar screen (after you hit the back button)
+- Course list screen
+    - => course detail
+    - => note screenn
+- Course detail screen
+    - => course list screen
+    - =>Note screen
+- Note screen
+    - none
 
 ## Wireframes
 
