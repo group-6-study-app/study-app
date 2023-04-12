@@ -88,7 +88,7 @@ An app to facilitate distraction-free studying and provide a learning community 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://i.imgur.com/cb9GAus.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
