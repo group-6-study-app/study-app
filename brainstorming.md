@@ -56,4 +56,6 @@ Kamden:
     - **Market:** Users of all ages and gender would use this application. Entrepreneurs can also tie up with sellers and other retailers for generating more profits. 
     - **Habit:** Users will use the app as frequently as they encounter new items/images - visual version of "Shazam" music app.
     - **Scope:** 
-    
+
+## Final idea
+Study App
