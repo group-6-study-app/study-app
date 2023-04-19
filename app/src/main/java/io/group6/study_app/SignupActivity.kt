@@ -23,12 +23,30 @@ class SignupActivity : AppCompatActivity() {
                 Toast.makeText(applicationContext, "Passwords do not match",
                     Toast.LENGTH_SHORT).show()
             }
-            if (passwdField.text.isEmpty() || confirmField.text.isEmpty() ||
+            else if (passwdField.text.isEmpty() || confirmField.text.isEmpty() ||
                 usernameField.text.isEmpty()) {
                 Toast.makeText(applicationContext, "One or more fields is blank",
                     Toast.LENGTH_SHORT).show()
             }
-            // TODO: Implement some way to store password, enact password requirements
+            else {
+                var specialChar = false
+                if (passwdField.text.length <= 8) {
+                    Toast.makeText(applicationContext, "Password must be longer than eight characters",
+                    Toast.LENGTH_SHORT).show()
+                    return@setOnClickListener
+                }
+                for (char in passwdField.text) {
+                    if (!char.isLetterOrDigit())
+                        specialChar = true
+                }
+                if (!specialChar) {
+                    Toast.makeText(applicationContext, "Password must contain a special character",
+                    Toast.LENGTH_SHORT).show()
+                    return@setOnClickListener
+                }
+                // TODO: Store username and password somewhere
+                // TODO: Hash the password as a security measure
+            }
         }
     }
 }
